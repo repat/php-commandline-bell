@@ -1,0 +1,21 @@
+{
+    "name": "repat/commandline-bell",
+    "type": "application",
+    "description": "Makes the ASCII Bell sound or flashes terminal",
+    "keywords": ["ascii", "bell", "bel", "sound", "beep", "flash"],
+    "homepage": "https://github.com/repat/php-commandline-bell",
+    "license": "MIT",
+    "version" : "0.1",
+    "authors": [
+        {
+            "name": "repat",
+            "email": "repat@repat.de"
+        }
+    ],
+    "require": {
+        "php": ">=4.0.7"
+    },
+    "autoload": {
+        "psr-4": { "repat\\CommandlineBell\\": "src/" }
+    }
+}
